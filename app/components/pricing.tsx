@@ -14,12 +14,12 @@ const Pricing = () => {
             <div className='mx-auto mb-16 h-[1px] w-full max-w-2xl bg-gradient-to-r from-transparent via-primary to-transparent'></div>
             <div className='mx-auto flex max-w-7xl flex-col gap-6 text-center'>
                 <div>
-                    <span className='rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-sm font-medium text-primary  dark:bg-primary/25'>
+                    <span className='rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-sm font-medium text-primary dark:bg-primary/25'>
                         <span className='brightness-[1.7]'>
                             Adaptable Pricing
                         </span>
                     </span>
-                    <h1 className='mt-4 scroll-m-20  font-inter text-4xl font-extrabold tracking-tight lg:text-5xl'>
+                    <h1 className='mt-4 scroll-m-20 font-inter text-4xl font-extrabold tracking-tight lg:text-5xl'>
                         <span className='bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent'>
                             Choose{' '}
                         </span>
@@ -68,33 +68,33 @@ const Pricing = () => {
                                     0
                                 </span>
                             </div>
-                            <p className=' text-muted-foreground'>
+                            <p className='text-muted-foreground'>
                                 Ideal for startups and small businesses
                             </p>
                         </div>
                         <ul className='mt-8 flex flex-col gap-4'>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='mt-0.5 h-5 w-5 shrink-0 text-primary' />
                                 <span>Up to 10 team members</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>50GB of cloud storage</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>Streamlined operations</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>Workflow optimization</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>Basic analytics</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>Email support</span>
                             </li>
                         </ul>
@@ -118,33 +118,33 @@ const Pricing = () => {
                                     )}
                                 </span>
                             </div>
-                            <p className=' text-muted-foreground'>
+                            <p className='text-muted-foreground'>
                                 Perfect for growing businesses
                             </p>
                         </div>
-                        <ul className='mt-8 flex flex-col gap-4'>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                        <ul className='mt-8 flex flex-col gap-4 text-left'>
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>Up to 50 team members</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>250GB of cloud storage</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>Advanced workflow tools</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>In-depth analytics</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>Priority email and phone support</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>Integration with third-party tools</span>
                             </li>
                         </ul>
@@ -166,33 +166,33 @@ const Pricing = () => {
                                     )}
                                 </span>
                             </div>
-                            <p className=' text-muted-foreground'>
+                            <p className='text-muted-foreground'>
                                 Comprehensive solutions for enterprises
                             </p>
                         </div>
-                        <ul className='mt-8 flex flex-col gap-4'>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                        <ul className='mt-8 flex flex-col gap-4 text-left'>
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>Unlimited team members</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>1TB of cloud storage</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>Customizable options</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>Dedicated account manager</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>24/7 priority support</span>
                             </li>
-                            <li className='flex items-center gap-2'>
-                                <CheckIcon className='h-5 w-5 text-primary' />
+                            <li className='flex gap-2'>
+                                <CheckIcon className='5 mt-0.5 shrink-0 text-primary' />
                                 <span>Advanced security features</span>
                             </li>
                         </ul>
