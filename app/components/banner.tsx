@@ -9,15 +9,15 @@ import { cn } from '~/lib/utils'
 import useTheme from '~/hooks/use-theme'
 const Banner = () => {
     const [state, handleSubmit] = useForm('mjvqrzpz')
-    const [theme, setTheme] = useTheme()
+    const [theme] = useTheme()
     return (
-        <section className=' relative mt-40 flex flex-col items-center justify-between gap-10 bg-gradient-to-br from-primary/20 via-transparent to-primary/20'>
+        <section className='relative mt-48 flex flex-col items-center justify-between gap-10 bg-gradient-to-br from-primary/20 via-transparent to-primary/20'>
             <div className='h-[1px] w-full bg-gradient-to-r from-primary to-transparent'></div>
             <div className='relative w-full max-w-7xl px-5'>
                 <div className='flex justify-between'>
                     <div className='mx-auto flex max-w-2xl flex-col gap-6 lg:mx-0'>
                         <div>
-                            <h1 className='mt-4 scroll-m-20  text-center font-inter text-4xl font-extrabold tracking-tight lg:text-left lg:text-5xl'>
+                            <h1 className='mt-4 scroll-m-20 text-center font-inter text-4xl font-extrabold tracking-tight lg:text-left lg:text-5xl'>
                                 <span className='bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent'>
                                     Empower{' '}
                                 </span>
@@ -46,7 +46,7 @@ const Banner = () => {
                             onSubmit={handleSubmit}
                             className='mx-auto flex w-full max-w-md flex-col items-end gap-2 lg:mx-0 lg:flex-row'
                         >
-                            <div className='flex w-full  max-w-sm basis-2/3 flex-col items-start gap-1.5'>
+                            <div className='flex w-full max-w-sm basis-2/3 flex-col items-start gap-1.5'>
                                 <Label
                                     className='text-left text-muted-foreground'
                                     htmlFor='email-banner'

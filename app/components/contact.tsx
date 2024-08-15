@@ -9,7 +9,7 @@ import { useForm } from '@formspree/react'
 const Contact = () => {
     const [state, handleSubmit] = useForm('xpzgladz')
     return (
-        <section className='mx-auto mt-40 flex max-w-7xl flex-col items-center gap-20 px-5 lg:flex-row'>
+        <section className='mx-auto mt-48 flex max-w-7xl flex-col items-center gap-20 px-5 lg:flex-row'>
             <div className='mx-auto flex max-w-2xl flex-grow basis-0 flex-col gap-6'>
                 <div>
                     <h1 className='mt-4 scroll-m-20 text-center font-inter text-4xl font-extrabold tracking-tight lg:text-left lg:text-5xl'>

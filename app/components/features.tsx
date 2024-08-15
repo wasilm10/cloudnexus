@@ -27,7 +27,7 @@ const featuresData: FeatureCardProps[] = [
     {
         title: 'Easy to use',
         description: 'The platform is easy to use and requires no training.',
-        icon: <ZapIcon size={28} className=' text-yellow-500' />,
+        icon: <ZapIcon size={28} className='text-yellow-500' />,
         backgroundColor: 'from-yellow-500/20 to-yellow-500/5',
     },
     {
@@ -54,7 +54,7 @@ const featuresData: FeatureCardProps[] = [
 
 const Features = () => {
     return (
-        <section className='mx-auto mt-28 max-w-7xl px-5'>
+        <section className='mx-auto mt-48 max-w-7xl px-5'>
             <div className='mx-auto flex max-w-2xl flex-col gap-6 text-center'>
                 <div>
                     <span className='rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-sm font-medium text-primary dark:bg-primary/25'>
@@ -62,7 +62,7 @@ const Features = () => {
                             Powerful Features
                         </span>
                     </span>
-                    <h1 className='mt-4 scroll-m-20  font-inter text-4xl font-extrabold tracking-tight lg:text-5xl'>
+                    <h1 className='mt-4 scroll-m-20 font-inter text-4xl font-extrabold tracking-tight lg:text-5xl'>
                         <span className='bg-gradient-to-b from-foreground to-foreground/70 bg-clip-text text-transparent'>
                             Advanced{' '}
                         </span>

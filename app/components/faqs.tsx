@@ -34,7 +34,7 @@ const faqs = [
 
 const FAQs = () => {
     return (
-        <section className='relative mx-auto px-5 pb-8 pt-40'>
+        <section className='relative mx-auto px-5 pb-8 pt-48'>
             <div className='mx-auto flex max-w-7xl flex-col gap-6 text-center'>
                 <div>
                     <span className='rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-sm font-medium text-primary dark:bg-primary/25'>
